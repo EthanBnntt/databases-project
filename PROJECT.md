@@ -4,7 +4,7 @@ Our project will be for a fictional space fairing company that provides space cr
 
 
 
-Potential Database structure
+## Potential Database structure
 
 
 table for starship models in service
