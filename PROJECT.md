@@ -14,3 +14,5 @@ table for planets/locations (inlcudes distance from earth, average review, avera
 table of pilots(years of service, name, personal info )
 
 table for people taking vacations
+
+table for a space trip
