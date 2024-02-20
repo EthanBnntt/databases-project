@@ -6,33 +6,47 @@ Our project will be for a fictional space fairing company that provides space cr
 
 ## Potential Database structure
 
-#### Starship Table
+### Starship Table
 
 name PK
+
 model and year PK
+
 drive (alcubierre-white, alcubierre froning)
+
 class (passenger, military, cargo, supercargo)
+
 min crew 
+
 max crew capacity
 
 ### Tables
 
 Pilots Table 
+
 name PK
+
 DoB PK
+
 home planet
+
 graduated from
+
 years of service
+
 total number of flights
 
 
+### Passengers Tables:
 
-Passengers Tables
+name PK
+SSN PK
+DoB 
+Travel no.
+Dependant of
 
 Locations Table
-
-table for planets/locations:
-name
+name PK
 distance from earth 
 average review
 climate type
