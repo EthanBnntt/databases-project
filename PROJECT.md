@@ -22,9 +22,18 @@ max crew capacity
 
 ### Tables
 
-table for starship models in service
+Pilots Table 
+name PK
+DoB PK
 
-table for planets/locations (inlcudes distance from earth, average review)
+Passengers Tables
+
+Locations Table
+
+
+
+table for planets/locations 
+(inlcudes distance from earth, average review)
 
 table of pilots (name, years of service, home planet)
 
