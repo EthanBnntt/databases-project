@@ -25,19 +25,27 @@ max crew capacity
 Pilots Table 
 name PK
 DoB PK
+home planet
+graduated from
+years of service
+total number of flights
+
+
 
 Passengers Tables
 
 Locations Table
 
+table for planets/locations:
+name
+distance from earth 
+average review
+climate type
 
-
-table for planets/locations 
-(inlcudes distance from earth, average review)
-
-table of pilots (name, years of service, home planet)
+table of pilots 
 
 table for customers (name, home planet, 
 
-table for a space trip (the starship, the pilot of the starship, the customers, 
+table for a space trip (the starship, the pilot of the:
+starship, the customers, 
 
