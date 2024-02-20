@@ -6,23 +6,24 @@ Our project will be for a fictional space fairing company that provides space cr
 
 ## Potential Database structure
 
+#### Starship Table
 
-table for starship models in service
-Starships:
 name PK
 model and year PK
-Current Captain
 drive (alcubierre-white, alcubierre froning)
 class (passenger, military, cargo, supercargo)
 min crew 
 max crew capacity
 
+### Tables
 
+table for starship models in service
 
-table for planets/locations (inlcudes distance from earth, average review, average travel time to get there, etc.)
+table for planets/locations (inlcudes distance from earth, average review)
 
-table of pilots(years of service, name, personal info )
+table of pilots (name, years of service, home planet)
 
-table for people taking vacations
+table for customers (name, home planet, 
 
-table for a space trip
+table for a space trip (the starship, the pilot of the starship, the customers, 
+
