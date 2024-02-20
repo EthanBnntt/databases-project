@@ -26,7 +26,9 @@ Pilots Table
 
 name PK
 
-DoB PK
+SSN PK
+
+DoB 
 
 home planet
 
@@ -40,20 +42,24 @@ total number of flights
 ### Passengers Tables:
 
 name PK
+
 SSN PK
+
 DoB 
+
 Travel no.
+
 Dependant of
 
-Locations Table
+### Locations Table
 name PK
+
 distance from earth 
+
 average review
+
 climate type
 
-table of pilots 
-
-table for customers (name, home planet, 
 
 table for a space trip (the starship, the pilot of the:
 starship, the customers, 
