@@ -9,10 +9,15 @@ Our project will be for a fictional space fairing company that provides space cr
 #### Starship Table
 
 name PK
+
 model and year PK
+
 drive (alcubierre-white, alcubierre froning)
+
 class (passenger, military, cargo, supercargo)
+
 min crew 
+
 max crew capacity
 
 ### Tables
