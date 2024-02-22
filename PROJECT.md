@@ -45,7 +45,7 @@ years of service
 total number of flights
 
 
-### Passengers Tables:
+### Passengers Table:
 
 Passenger_ID_num PK 
 
@@ -55,7 +55,7 @@ DoB
 
 Trip_number
 
-Dependant of (null if adult)
+Dependant of (null if adult) FK of Passenger Table
 
 ### Locations Table
 
