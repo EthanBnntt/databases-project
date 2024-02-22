@@ -4,27 +4,33 @@ Our project will be for a fictional space fairing company that provides space cr
 
 
 
+Legend:
+
+PK = Primary key
+FK = Foreign key
+Comp = Composite attibute
+
 ## Potential Database structure
 
 ### Starship Table
 
 name PK
 
-model and year PK
-
-drive (alcubierre-white, alcubierre froning)
-
-class (passenger, military, cargo, supercargo)
+Serial number PK
 
 min crew 
 
-max crew capacity
+max passenger capacity
+
+last service date
+
+next service date
 
 ### Pilots Table
  
-name PK
+ID num. PK
 
-SSN PK
+Name
 
 DoB 
 
@@ -39,26 +45,37 @@ total number of flights
 
 ### Passengers Tables:
 
-name PK
+Passenger_ID_num PK
 
-SSN PK
+name
 
 DoB 
 
-Travel no.
+Trip_number
 
-Dependant of
+Dependant of (null if adult)
 
 ### Locations Table
-name PK
 
-distance from earth 
+location_ID (name, starsystem) PK
+
+name (Comp of trip_ID)
+
+Star system (Comp of trip_ID)
 
 average review
 
 climate type
 
 
-table for a space trip (the starship, the pilot of the:
+### Trip Table
+
+trip_num PK
+
+Pilot FK (ID_num from Pilots table)
+
+Destination 
+
+(the starship, the pilot of the:
 starship, the customers, 
 
