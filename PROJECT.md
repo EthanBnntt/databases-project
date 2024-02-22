@@ -14,9 +14,11 @@ Comp = Composite attibute
 
 ### Starship Table
 
-name PK
+ID (name, serial number) PK
 
-Serial number PK
+name (comp of ID)
+
+Serial number (comp of ID)
 
 min crew 
 
@@ -45,11 +47,11 @@ total number of flights
 
 ### Passengers Tables:
 
-Passenger_ID_num PK (name, DoB)
+Passenger_ID_num PK 
 
-name (comp of Passenger_ID_num)
+name
 
-DoB (comp of Passenger_ID_num)
+DoB 
 
 Trip_number
 
@@ -72,11 +74,13 @@ climate type
 
 trip_num PK
 
+Starship FK ()
+
 Pilot FK (ID_num from Pilots table)
 
 Destination FK (location_ID from Locations Table)
 
-Passengers ()
+Passengers FK (Passenger_ID_num form Passengers Table)
 
 (the starship, the pilot of the:
 starship, the customers, 
