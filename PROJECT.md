@@ -74,7 +74,7 @@ climate type
 
 trip_num PK
 
-Starship FK ()
+Starship FK (ID from Starships table)
 
 Pilot FK (ID_num from Pilots table)
 
@@ -82,6 +82,5 @@ Destination FK (location_ID from Locations Table)
 
 Passengers FK (Passenger_ID_num form Passengers Table)
 
-(the starship, the pilot of the:
-starship, the customers, 
+Departure date
 
