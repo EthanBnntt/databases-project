@@ -20,10 +20,8 @@ min crew
 
 max crew capacity
 
-### Tables
-
-Pilots Table 
-
+### Pilots Table
+ 
 name PK
 
 SSN PK
