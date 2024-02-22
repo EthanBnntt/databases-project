@@ -45,11 +45,11 @@ total number of flights
 
 ### Passengers Tables:
 
-Passenger_ID_num PK
+Passenger_ID_num PK (name, DoB)
 
-name
+name (comp of Passenger_ID_num)
 
-DoB 
+DoB (comp of Passenger_ID_num)
 
 Trip_number
 
@@ -74,7 +74,9 @@ trip_num PK
 
 Pilot FK (ID_num from Pilots table)
 
-Destination 
+Destination FK (location_ID from Locations Table)
+
+Passengers ()
 
 (the starship, the pilot of the:
 starship, the customers, 
