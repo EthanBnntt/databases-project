@@ -14,73 +14,31 @@ Comp = Composite attibute
 
 ### Starship Table
 
-ID (name, serial number) PK
-
-name (comp of ID)
-
-Serial number (comp of ID)
-
-min crew 
-
-max passenger capacity
-
-last service date
-
-next service date
+| ID (name + serial number) | name | serial number | min crew | max passenger capacity | last service date | next service date |
+| - | - | - | - | - | - | - |
+| PK, NN, UQ | NN | NN | NN | NN | NN | NN |
 
 ### Pilots Table
- 
-ID num. PK
 
-Name
-
-DoB 
-
-home planet
-
-graduated from
-
-years of service
-
-total number of flights
-
+| ID | name | dob | home planet | graduated from | years of service | flight count |
+| - | - | - | - | - | - | - |
+| PK, NN, UQ | NN | NN | Planet FK, NN | NN | NN | NN |
 
 ### Passengers Table:
 
-Passenger_ID_num PK 
+| ID | name | dob | dependent_of |
+| - | - | - | - | 
+| PK, NN, UQ | NN | NN | Passenger FK |
 
-name
+### Planets Table
 
-DoB 
-
-Trip_number
-
-Dependant of (null if adult) FK of Passenger Table
-
-### Locations Table
-
-location_ID (name, starsystem) PK
-
-name (Comp of trip_ID)
-
-Star system (Comp of trip_ID)
-
-average review
-
-climate type
-
+| ID (planet name + star system name) | planet name | star system name | average review | climate type |
+| - | - | - | - | - |
+| PK, NN, UQ | NN | NN | NN | NN |
 
 ### Trip Table
 
-trip_num PK
-
-Starship FK (ID from Starships table)
-
-Pilot FK (ID_num from Pilots table)
-
-Destination FK (location_ID from Locations Table)
-
-Passengers FK (Passenger_ID_num form Passengers Table)
-
-Departure date
+| ID | starship | pilot | source | destination | departure date |
+| - | - | - | - | - | - | 
+| PK, NN, UQ | Starship FK, NN | Pilot FK, NN | Planet FK | Planet FK | NN |
 
