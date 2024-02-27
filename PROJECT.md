@@ -42,3 +42,8 @@ Comp = Composite attibute
 | - | - | - | - | - | - | 
 | PK, NN, UQ | Starship FK, NN | Pilot FK, NN | Planet FK | Planet FK | NN |
 
+### Trip_Participation Relationship Table
+
+| ID | passenger | trip |
+| - | - | - |
+| PK, NN, UQ | Passenger FK, NN, UQ | Trip FK, NN, UQ |
